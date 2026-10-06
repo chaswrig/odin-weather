@@ -1,0 +1,41 @@
+{
+  "name": "REPLACE-ME",
+  "version": "1.0.0",
+  "description": "REPLACE ME",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaswrig/REPLACE-WITH-REPO-NAME.git"
+  },
+  "keywords": [],
+  "author": "chaswrig <42904530+chaswrig@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://replacemewithactualrepourl.com"
+  },
+  "homepage": "REPLACE WITH REPO URL TO #readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "css-loader": "^7.1.5",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "prettier": "3.9.9",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^3.0.0"
+  }
+}
