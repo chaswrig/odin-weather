@@ -1,10 +1,14 @@
 // src/index.js
 import "./styles.css";
-import { pageLoader } from "./page_loader.js";
-import { buttonMaker } from "./button_maker.js";
+import { weatherLoader } from "./weather_loader.js";
+import { gifLoader } from "./gif_loader.js";
 
-buttonMaker("home");
-buttonMaker("menu");
-buttonMaker("about");
+//Basic skeleton. API implementation will be added to the specific modules
 
-pageLoader("home");
+const weatherBtn = document.getElementById("weather-btn");
+weatherBtn.addEventListener("click", async () => {
+    let weather = await weatherLoader(78254);
+    weatherBtn.textContent = weather;
+});
+
+document.body.appendChild(await gifLoader());

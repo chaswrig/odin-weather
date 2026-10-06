@@ -1,7 +1,7 @@
 {
-  "name": "REPLACE-ME",
+  "name": "odin-weather",
   "version": "1.0.0",
-  "description": "REPLACE ME",
+  "description": "Weather application using other APIs",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -11,16 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chaswrig/REPLACE-WITH-REPO-NAME.git"
+    "url": "git+https://github.com/chaswrig/odin-weather.git"
   },
   "keywords": [],
   "author": "chaswrig <42904530+chaswrig@users.noreply.github.com>",
   "license": "MIT",
   "type": "module",
   "bugs": {
-    "url": "https://replacemewithactualrepourl.com"
+    "url": "https://github.com/chaswrig/odin-weather"
   },
-  "homepage": "REPLACE WITH REPO URL TO #readme",
+  "homepage": "https://github.com/chaswrig/odin-weather/blob/main/README.md",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "css-loader": "^7.1.5",

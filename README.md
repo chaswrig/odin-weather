@@ -1,7 +1,9 @@
-# replace with repo name
+# odin-weather
 
-This is a template. After creating and cloning repo to local, run npm install to install all the stuff from package.json.
+Weather application that will use Visual Crossing API for weather updates and Giphy API for image updates.
 
-npm run build will build the project
+'npm install' will install dependencies
 
-npm run dev will launch dev server, page available at local host 8080
+'npm run build' will build the project
+
+'npm run dev' will launch dev server, page available at local host 8080 and it will auto-update as changes are saved locally.
