@@ -1,3 +1,7 @@
+#Manual Ignores
+weather_key.js
+gif_key.js
+
 # Logs
 logs
 *.log

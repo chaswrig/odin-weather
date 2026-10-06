@@ -9,6 +9,6 @@ const weatherBtn = document.getElementById("weather-btn");
 weatherBtn.addEventListener("click", async () => {
     let weather = await weatherLoader(78254);
     weatherBtn.textContent = weather;
+    const image = document.getElementById("gif");
+    image.src = await gifLoader(weather);
 });
-
-document.body.appendChild(await gifLoader());
